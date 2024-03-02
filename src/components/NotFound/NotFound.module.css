@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    color: rgba(0, 0, 0, .8);
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-size: 120px;
+    line-height: 150px;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+}
+
+.text {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+    border-bottom: 2px solid rgba(0, 0, 0, .6);
+    margin-top: 100px;
+}
+
+.link:hover {
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+}

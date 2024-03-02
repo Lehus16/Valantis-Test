@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    padding: 20px 10px;
+}
+
+.image {
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    min-height: 80px;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+
+.id {
+    margin: 10px 0;
+    font-size: 12px;
+    min-height: 30px;
+}

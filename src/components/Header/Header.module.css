@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, .6);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .6);
+}
+
+.title {
+    margin: 0;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+    border-bottom: 2px solid rgba(0, 0, 0, .6);
+    ;
+}
+
+.link:hover {
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+}
