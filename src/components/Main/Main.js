@@ -4,7 +4,6 @@ import cn from 'classnames'
 import { Link } from 'react-router-dom'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
-import Cards from '../Cards/Cards'
 
 const Main = () => {
 
@@ -13,8 +12,8 @@ const Main = () => {
             <Header />
             <main className={cn(classes.main)}>
                 <h2 className={cn(classes.title)}>Тестовое задание на вакансию Frontend разработчика</h2>
-                <a className={cn(classes.link)} target='_blank' href='#'>GitHub Repo</a>
-                <a className={cn(classes.link)} target='_blank' href='#'>GitHub Pages</a>
+                <Link className={cn(classes.link)} target='_blank' href='https://github.com/Lehus16/Valantis-Test'>GitHub Repo</Link>
+                <Link className={cn(classes.link)} target='_blank' href='https://lehus16.github.io/Valantis-Test/'>GitHub Pages</Link>
             </main>
             <Footer />
         </>
