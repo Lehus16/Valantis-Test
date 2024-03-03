@@ -101,7 +101,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={
+      <Route path="/Valantis-Test" element={
         <Main
         />
       } />
