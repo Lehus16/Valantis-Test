@@ -2,7 +2,7 @@
     "name": "test",
     "version": "0.1.0",
     "private": true,
-    "main": "src/index.js",
+    "main": "build/index.html",
     "author": "Aleksei Ushakov",
     "repository": {
         "type": "git",
