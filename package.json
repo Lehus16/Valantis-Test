@@ -12,7 +12,7 @@
     "bugs": {
         "url": "https://github.com/Lehus16/Valantis-Test/issues"
     },
-    "homepage": "https://github.com/Lehus16/Valantis-Test",
+    "homepage": "https://github.com/Lehus16/Valantis-Test#readme",
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
